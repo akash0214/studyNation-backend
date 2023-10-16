@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+//Schema for courses
 const courseSchema = new mongoose.Schema({
     courseName: {
         type: String,
